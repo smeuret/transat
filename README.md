@@ -1,8 +1,8 @@
-## Transat - The missing transition assessment tool for Smarteam
+## Transat - The missing transition assessment tool for SmarTeam
 
 ## Prerequisites
 
- * Ruby 2.3.x **32bit** ([Ruby Windows Installer](https://rubyinstaller.org/downloads/)
+ * Ruby 2.3.x **32bit** ([Ruby Windows Installer](https://rubyinstaller.org/downloads/))
    * because of a bug in Ruby 2.4.x win32ole
    * because SmarTeam's COM servers are 32bit only
  * Git ([Git Windows Installer](https://git-scm.com/download/win))
@@ -27,7 +27,7 @@ Install the bundler gem:
 gem install bundler
 ```
 
-## Installing (with out git-bash)
+## Installing (without git-bash)
 
 From a 'Command Prompt with Ruby' shell:
 
