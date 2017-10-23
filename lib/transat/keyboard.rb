@@ -2,7 +2,7 @@ module Transat
   module Keyboard
     def handleKeyPress(widget, event)
       if event.state.control_mask? and event.keyval == Gdk::Keyval::GDK_q
-        LOG.debug "Exiting"
+        LOG.debug "Exiting !"
         destroy
         true
       else
