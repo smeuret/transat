@@ -49,6 +49,19 @@ Go to the directory where transat resides and run:
 ruby app/transat.rb
 ```
 
+## Development
+
+Using Microsoft [Visual Studio Code](https://code.visualstudio.com) is currently the only supported environment if you need an integrated debugger (completely optional). Follow these steps to get it up and running:
+
+ 1. Install the [Ruby 2.3.x 32bits devkit](https://dl.bintray.com/oneclick/rubyinstaller/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe).
+ 2. `gem install ruby-debug-ide -v 0.6.0`
+ 3. `gem install debase -v 0.2.2.beta11` ([or higher](https://github.com/denofevil/debase/releases)))
+ 4. Finally make sure that the Ruby language support is installed in VS Code. In VS Code, press F1, type ext install then search for ruby.
+
+### Launching from VS Code  
+
+The `launch.json` file included in the project should work right away. See the [Ruby Plug-in doc](https://github.com/rubyide/vscode-ruby/wiki/2.-Launching-from-VS-Code) for more details.
+
 ## TODO
 
  * Make launchable from a `.rbw` file
